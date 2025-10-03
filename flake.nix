@@ -10,10 +10,12 @@
       system = "x86_64-linux";
       modules = [
        ./configuration.nix
+       ./hardware-configuration.nix
        ({ pkgs, ...}: {
 	 environment.systemPackages = with pkgs; [
 	    neovim
 	    joplin-desktop
+	    anki-bin
 	 ];
        })
      
