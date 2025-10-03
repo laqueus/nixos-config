@@ -3,6 +3,7 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
+
   };
 
   outputs = { self, nixpkgs }: {
@@ -16,6 +17,7 @@
 	    neovim
 	    joplin-desktop
 	    anki-bin
+	    vesktop
 	 ];
        })
      
