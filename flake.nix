@@ -12,12 +12,14 @@
       modules = [
        ./configuration.nix
        ./hardware-configuration.nix
+       ./modules/games/osu.nix
+       ./modules/social/vencord
        ({ pkgs, ...}: {
 	 environment.systemPackages = with pkgs; [
 	    neovim
 	    joplin-desktop
 	    anki-bin
-	    vesktop
+	    openrgb
 	 ];
        })
      

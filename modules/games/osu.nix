@@ -1,6 +1,6 @@
 {config, pkgs, ... }:
 {
 	environment.systemPackages = with pkgs; [
-		osu-lazer
+		osu-lazer-bin
 	];
 }
